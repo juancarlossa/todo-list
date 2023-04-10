@@ -1,5 +1,12 @@
+
 .App {
   text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: rgb(95, 71, 255);
+  background: #faedde;
+
+  height: 100vh;
 }
 
 .App-logo {
@@ -35,4 +42,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.completed {
+  text-decoration: line-through;
+  
 }
